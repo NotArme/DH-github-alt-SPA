@@ -1,8 +1,7 @@
-import axios from 'axios';
 import { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 
-import api from "../services/api.js"
+import api from '../services/api';
 
 function UserSearch() {
   const [userSearch, setUserSearch] = useState('');
